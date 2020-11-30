@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&
+            family=Catamaran:wght@700&family=DM+Serif+Text&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" type="text/css" href="assets/styles/nav-and-header.css">
+        <link rel="stylesheet" type="text/css" href="assets/styles/pg-content.css">
+        <link rel="stylesheet" type="text/css" href="assets/styles/animations.css">
+    </head>
+    <body>
+        <div id="nav-bar">
+            <div id="logo">
+                <a href="index.html">
+                    <img src="assets/imgs/fruit-icons/orange.png" alt="orange">
+                </a>
+            </div>
+            <div class="nav-text">
+                <div class="nav-item">
+                    <a id="szn-guide" class="active-button" href="index.html">Seasonal Guide</a>
+                </div>
+                <div class="nav-item">
+                    <a id="how-to-prep" href="how-to-prepare.html">How to Prepare</a>
+                </div>
+                <div class="nav-item">
+                    <a id="abt" href="about.html">About</a>
+                </div>
+            </div>
+        </div>
+        <div class="pg-content">
+            <div class="header">
+                <img class="header-img" src="assets/imgs/header-imgs/in-season-summer-windowless.png" alt="a window with the blinds drawn to reveal a summer agricultural landscape">
+                <img class="header-img-blinds default" src="assets/imgs/header-imgs/init-blinds.png">
+                <div class="clip">
+                    <img class="header-img-blinds transition" src="assets/imgs/header-imgs/window-blinds-bare.png">
+                </div>
+                <div class="nav-text">
+                    <div class="nav-item">
+                        <a id="winter" href="index.html">Winter</a>
+                    </div>
+                    <div class="nav-item">
+                        <a id="spring" href="index-spring.html">Spring</a>
+                    </div>
+                    <div class="nav-item">
+                        <a id="summer" class="active-button" href="index-summer.html">Summer</a>
+                    </div><div class="nav-item">
+                        <a id="autumn" href="index-autumn.html">Autumn</a>
+                    </div>
+                </div>
+            </div>
+            <div class="pg-body">
+                <h1>Month</h1>
+                    <div class="button-lists">
+                        <div class="fruits">
+                            <h2>FRUITS</h2>
+                            <div id="month-produce"class="produce cover" onClick="toggleProduceTips(this.id)">
+                                <div class="icons">
+                                    <img src="assets/imgs/fruit-icons/orange.png" alt="an orange">
+                                    <p>ORANGES</p>
+                                </div>
+                                <div class="content hidden">
+                                    <ul>
+                                        <li>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+                                            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="veggies">
+                            <h2>VEGGIES</h2>
+                            <div id="month-produce2" class="produce cover" onClick="toggleProduceTips(this.id)">
+                                <div class="icons">   
+                                    <img src="assets/imgs/veggie-icons/bok-choy.png" alt="a bok choy">
+                                    <p>BOK CHOY</p>
+                                </div>
+                                <div class="content hidden">
+                                    <ul>
+                                        <li>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+                                            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="assets/scripts/main.js"></script>
+    </body>
+</html>

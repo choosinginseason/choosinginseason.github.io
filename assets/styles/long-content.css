@@ -1,0 +1,86 @@
+/* Text Styling */
+h1 {
+    font-family: 'Abril Fatface', cursive;
+    color: #3F553B;
+    font-size: 48px;
+}
+
+h2 {
+    font-family: 'Catamaran', sans-serif;
+    color: #71933B;
+    font-size: 28px;
+    margin-top: -10px;
+}
+
+p, li {
+    font-family: 'Catamaran', sans-serif;
+    color: white;
+    font-size: 34px;
+    font-weight: 700;
+}
+
+li {
+    color: #71933B;
+}
+
+strong {
+    color:#3F553B;
+}
+
+/* Content Styling */
+.pg-body {
+    margin-top: 120px;
+    margin-bottom: 280px;
+}
+
+.month {
+    margin-top: 100px;
+    margin-bottom:100px;
+}
+
+.button-lists {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fruits, .veggies {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;  
+    width: 1150px;
+}
+
+.produce {
+    display: flex;
+    flex-direction: column;
+    background-color: #F5DEB8;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px 30px;
+    border-radius: 20px;
+    width: 100%;
+    box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+.produce img{
+    height: 75%;
+    padding-right: 30px;
+}
+
+/* Button Clicking Specs */
+.cover {
+    width: 1150px;
+    height: 100px;
+    overflow: hidden;
+}
+
+.hidden {
+    visibility: hidden;
+}
