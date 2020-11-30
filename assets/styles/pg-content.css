@@ -2,20 +2,20 @@
 h1 {
     font-family: 'Abril Fatface', cursive;
     color: #3F553B;
-    font-size: 48px;
+    font-size: 3em; /* 48px */
 }
 
 h2 {
     font-family: 'Catamaran', sans-serif;
     color: white;
-    font-size: 28px;
+    font-size: 1.75em; /* 28px */
     margin-top: -10px;
 }
 
 p, li {
     font-family: 'Catamaran', sans-serif;
     color: white;
-    font-size: 34px;
+    font-size: 2.125em; /* 34px */
     font-weight: 700;
 }
 
