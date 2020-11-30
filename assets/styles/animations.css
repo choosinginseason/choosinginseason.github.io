@@ -7,10 +7,14 @@
   visibility: hidden;
 }
 
+.transition {
+  position: absolute;
+}
+
 .clip {
   position: absolute;
-  top: 37%;
-  overflow: hidden;
+
+  
 }
 
 .header-img-blinds.default {
