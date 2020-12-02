@@ -1,31 +1,52 @@
+/* Text Styling */
 h1 {
-    font-family: 'Abril Fatface', cursive;
-    color: #3F553B;
-    font-size: 48px;
+    font-family: 'DM Serif Text', serif;
+    color: #782A16;
+    font-size: 6em; /* 96px; rel to 16px */
+    font-weight: normal;
+}
+
+.clip {
+    background-color: #782A16;
 }
 
 h2 {
+    font-family: 'Abril Fatface', cursive;
+    color: #3F553B;
+    font-size: 3em; /* 48px */
+}
+
+h3 {
     font-family: 'Catamaran', sans-serif;
     color: white;
-    font-size: 28px;
+    font-size: 1.75em; /* 28px */
     margin-top: -10px;
 }
 
-P {
+p, li {
     font-family: 'Catamaran', sans-serif;
     color: white;
-    font-size: 38px;
+    font-size: 2.125em; /* 34px */
     font-weight: 700;
 }
 
+li {
+    color: #71933B;
+}
+
+strong {
+    color:#3F553B;
+}
+
+/* Content Styling */
 .pg-body {
-    margin-top: 280px;
+    margin-top: 120px;
     margin-bottom: 280px;
 }
 
 .month {
-    margin-top: 200px;
-    margin-bottom: 200px;;
+    margin-top: 150px;
+    margin-bottom:150px;
 }
 
 .button-lists {
@@ -40,40 +61,37 @@ P {
     width: 420px;
 }
 
-.a-single-fruit, .a-single-veggie {
+.produce {
     display: flex;
+    flex-direction: column;
     background-color: #F5DEB8;
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 10px 30px;
     border-radius: 20px;
-    align-items: center;
-    
     width: 100%;
-    height: 100px;
-    
     box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
 }
 
+.icons {
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
 
-
-.a-single-fruit img, .a-single-veggie img{
+.produce img{
     height: 75%;
     padding-right: 30px;
 }
 
-li {
-    font-family: 'Catamaran', sans-serif;
-    color: #71933B;
-    font-size: 38px;
-    font-weight: 700;
+/* Button Clicking Specs */
+.cover {
+    width: 420px;
+    height: 100px;
+    overflow: hidden;
 }
 
-/*
-@media (max-width: 768px) {  
-    .content{
-       width:50%;
-       font-size: 90%;
-    }
+.hidden {
+    visibility: hidden;
 }
-*/

@@ -1,3 +1,10 @@
+// var h = $("header-img").height();
+// // document.getElementsByClassName("clip").style.top = h * 0.28;
+// document.getElementById("pls").style.top = h * 0.28;
+
+
+
+
 //
 //Setting current pg/active button to orange
 //
