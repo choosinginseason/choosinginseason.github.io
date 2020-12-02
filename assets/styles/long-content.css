@@ -69,9 +69,28 @@ strong {
     height: 100px;
 }
 
+.q-n-a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+}
+
 .produce img{
     height: 75%;
     padding-right: 30px;
+}
+
+.expand-icon, .minimize-icon {
+    margin-right: -50px;
+}
+
+.on {
+    display: block;
+}
+
+.off {
+    display: none;
 }
 
 /* Button Clicking Specs */

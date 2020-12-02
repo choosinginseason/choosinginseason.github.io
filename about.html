@@ -8,6 +8,7 @@
             family=Catamaran:wght@700&family=DM+Serif+Text&display=swap" rel="stylesheet">
 
         <link rel="stylesheet" type="text/css" href="assets/styles/nav-and-header.css">
+        <link rel="stylesheet" type="text/css" href="assets/styles/long-content.css">
     </head>
     <body>
         <div id="nav-bar">
@@ -31,8 +32,99 @@
         <div class="pg-content">
             <div class="header">
                 <img class="header-img" src="assets/imgs/header-imgs/abt-me.png">
-               
+            </div>
+            <div class="pg-body">
+                <div class="month">
+                    <h1>Q&A</h1>
+                    <div class="button-lists">
+                        <div class="fruits">
+                            <!-- <h2>(MEEZ ahn plahs) -  a French culinary phrase that represents the process of preparing ingredients before cooking </h2> -->
+                            <div id="who" class="produce cover" onClick="toggleProduceTips(this.id); toggleAccordion(this.id)">
+                                <div class="q-n-a">
+                                    <p>WHO AM I?</p>
+                                    <img class="expand-icon on" src="assets/imgs/header-imgs/plus.png">
+                                    <img class="minimize-icon off" src="assets/imgs/header-imgs/minus.png">
+                                </div>
+                                <div class="content hidden">
+                                    <ul>
+                                        <li>
+                                            I am currently a second year studying Cognitive Science with a passion for UI & graphic design
+                                        </li>
+                                        <li>
+                                            I have two dogs that I love very much, and in my free time I like to paint or play the piano
+                                        </li>
+                                        <li>
+                                            My favorite thing to do over break is to hole up and binge shows/anime/kdramas that I wasn't able
+                                            to watch during the school year :')
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div id="why" class="produce cover" onClick="toggleProduceTips(this.id); toggleAccordion(this.id)">
+                                <div class="q-n-a">
+                                    <p>WHY IN SEASON?</p>
+                                    <img class="expand-icon on" src="assets/imgs/header-imgs/plus.png">
+                                    <img class="minimize-icon off" src="assets/imgs/header-imgs/minus.png">
+                                </div>
+                                <div class="content hidden">
+                                    <ul>
+                                        <li>
+                                            Growing up as an Asian American, a lot of acts of affection are displayed with food. 
+                                            Fruit in particular hold a special place in my heart—from the way my ba ngoai (maternal grandmother) 
+                                            makes me dried perssimons from her trees, or the way my dad buys yellow dragonfruit even though they're 
+                                            expensive because he knows I like them
+                                        </li>
+                                        <li>
+                                            Coming to college I realized I had taken the fresh fruit & vegetables at home for granted. 
+                                            I never knew the ‘right time’ to buy certain produce and picking good produce was not a skill that I had
+                                        </li>
+                                        <li>
+                                            After moving into an apartment with my friends, I realized they were just as bad as me if not worse 
+                                            (one time I let my friend go grocery shopping by himself and he bought wilted green onions...)
+                                        </li>
+                                        <li>
+                                            Hopefully this site can help others in similar situations enjoy the taste of fresh produce :)
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div id="fave" class="produce cover" onClick="toggleProduceTips(this.id); toggleAccordion(this.id)">
+                                <div class="q-n-a">
+                                    <p>WHAT IS YOUR FAVORITE FRUIT/VEGETABLE?</p>
+                                    <img class="expand-icon on" src="assets/imgs/header-imgs/plus.png">
+                                    <img class="minimize-icon off" src="assets/imgs/header-imgs/minus.png">
+                                </div>
+                                <div class="content hidden">
+                                    <ul>
+                                        <li>
+                                            Mangoes and steamed sweet potatoes or yams! 
+                                            They're perfect for cooling down in the summer or warming up in the winter
+                                        </li> 
+                                    </ul>
+                                </div>
+                            </div>
+                            <div id="least-fave" class="produce cover" onClick="toggleProduceTips(this.id); toggleAccordion(this.id)">
+                                <div class="q-n-a">
+                                    <p>WHAT IS YOUR LEAST FAVORITE FRUIT/VEGETABLE?</p>
+                                    <img class="expand-icon on" src="assets/imgs/header-imgs/plus.png">
+                                    <img class="minimize-icon off" src="assets/imgs/header-imgs/minus.png">
+                                </div>
+                                <div class="content hidden">
+                                    <ul>
+                                        <li>
+                                            Ya' know I like to think that I'm not that picky, but I HIGHLY DISLIKE avocados.
+                                            I honestly think avocados on toast is a waste of bread and would rather eat durian, 
+                                            but feel free to reach out and disagree with me on <a href="https://www.linkedin.com/in/savanna-vu/">LinkedIn</a> :)
+                                        </li> 
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+        <script type="text/javascript" src="assets/scripts/main.js"></script>
     </body>
 </html>
