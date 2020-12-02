@@ -16,6 +16,12 @@ body {
     }
 }
 
+@media (max-width: 640px) { 
+    body {
+        zoom: 0.35;
+    }
+}
+
 /*fix thisssssss*/
 /* @media (max-width: 768px) {  
     .nav-item a, .pg-content h1, .pg-content h2, .pg-content p, .pg-content li {  
