@@ -10,4 +10,4 @@ It lists characteristics of different seasonal fruits and veggitables, and provi
 
 ## Check it out!
 It is hosted at https://vuksavanna.github.io/ <br>
-(view on a Google Chrome web browser for the best experience!)
+(please view on a Google Chrome web browser for the best experience!)
