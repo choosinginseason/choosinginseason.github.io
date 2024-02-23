@@ -9,5 +9,5 @@ It lists characteristics of different seasonal fruits and vegetables, and provid
 - New 'Grow at Home' page featuring easy to grow herbs <br>
 
 ## Check it out!
-It is hosted at https://vuksavanna.github.io/ <br>
+It is hosted at https://inseason.github.io/ <br>
 (please view on a Google Chrome web browser for the best experience!)
